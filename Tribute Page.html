@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Bhagat Singh</title>
+  <script src="/_sdk/element_sdk.js"></script>
+  <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app" class="w-full h-full overflow-auto" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);"><!-- Hero Section -->
+   <header class="text-center py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+     <h1 id="page-title" class="text-6xl font-bold mb-4" style="color: #ff6b35;">Bhagat Singh</h1>
+     <p id="hero-quote" class="text-2xl italic" style="color: #f0e6d2;">Shaheed-e-Azam - The Great Martyr</p>
+     <div class="mt-8 inline-block"><img src="static/bg.jpg" alt="Bhagat Singh" width="300" height="300" class="rounded-full shadow-2xl border-8 object-cover mx-auto" style="border-color: #ff6b35;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+      <div style="display: none; color: #f0e6d2; font-style: italic; margin-top: 20px; padding: 20px; background: rgba(255,107,53,0.2); border-radius: 10px;">
+       ⚠️ Image not found<br><small>Note: "static/bg.jpg" is a local path and won't work in this environment.<br>
+         Please use a full image URL starting with https://</small>
+      </div>
+     </div>
+     <div class="mt-6 text-xl" style="color: #f0e6d2;"><span class="font-semibold">1907 - 1931</span>
+     </div>
+    </div>
+   </header><!-- About Section -->
+   <section class="py-12 px-6">
+    <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl p-10">
+     <h2 id="about-heading" class="text-4xl font-bold mb-6 text-center" style="color: #16213e;">A Revolutionary Spirit</h2>
+     <div class="space-y-6 text-lg leading-relaxed" style="color: #333;">
+      <p>Bhagat Singh stands as one of the most influential and inspiring revolutionaries in India's freedom struggle. Born on September 28, 1907, in Banga, Punjab, he grew up in a family deeply involved in the independence movement, which shaped his revolutionary ideals from a young age.</p>
+      <p>What makes Bhagat Singh truly remarkable is not just his courage, but his intellectual depth and progressive thinking. He was a voracious reader, studying works on socialism, communism, and revolutionary movements worldwide. His vision extended beyond mere political independence; he dreamed of a free India built on principles of equality, justice, and secularism.</p>
+      <p>At the tender age of 23, Bhagat Singh was hanged by the British colonial government on March 23, 1931, along with his comrades Rajguru and Sukhdev. His sacrifice ignited a fire in the hearts of millions of Indians and accelerated the momentum of the freedom movement. He faced death with extraordinary courage, singing patriotic songs as he walked to the gallows.</p>
+     </div>
+    </div>
+   </section><!-- Legacy Cards -->
+   <section class="py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+     <h2 id="legacy-heading" class="text-4xl font-bold mb-12 text-center" style="color: #ff6b35;">His Enduring Legacy</h2>
+     <div class="grid md:grid-cols-3 gap-8"><!-- Card 1 -->
+      <div class="bg-white rounded-xl shadow-xl p-8 hover:transform hover:scale-105 transition-transform duration-300">
+       <div class="text-5xl mb-4 text-center">
+        📚
+       </div>
+       <h3 class="text-2xl font-bold mb-4 text-center" style="color: #16213e;">Intellectual Revolutionary</h3>
+       <p class="text-gray-700 leading-relaxed">A deep thinker and prolific writer, Bhagat Singh authored numerous articles on socialism, atheism, and revolution. His essay "Why I Am An Atheist" remains a masterpiece of rational thought.</p>
+      </div><!-- Card 2 -->
+      <div class="bg-white rounded-xl shadow-xl p-8 hover:transform hover:scale-105 transition-transform duration-300">
+       <div class="text-5xl mb-4 text-center">
+        ⚖️
+       </div>
+       <h3 class="text-2xl font-bold mb-4 text-center" style="color: #16213e;">Champion of Equality</h3>
+       <p class="text-gray-700 leading-relaxed">He envisioned an India free from caste discrimination, religious divisions, and economic exploitation. His socialism was rooted in compassion for the oppressed masses.</p>
+      </div><!-- Card 3 -->
+      <div class="bg-white rounded-xl shadow-xl p-8 hover:transform hover:scale-105 transition-transform duration-300">
+       <div class="text-5xl mb-4 text-center">
+        🔥
+       </div>
+       <h3 class="text-2xl font-bold mb-4 text-center" style="color: #16213e;">Eternal Inspiration</h3>
+       <p class="text-gray-700 leading-relaxed">His fearlessness, patriotism, and sacrifice continue to inspire generations. "Inquilab Zindabad" (Long Live Revolution) became the rallying cry of freedom fighters.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Quote Section -->
+   <section class="py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+     <div class="bg-white rounded-2xl shadow-2xl p-12 border-l-8" style="border-color: #ff6b35;">
+      <svg class="w-12 h-12 mb-6" style="fill: #ff6b35;" viewbox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
+      </svg>
+      <blockquote>
+       <p id="featured-quote" class="text-3xl italic font-serif mb-6 leading-relaxed" style="color: #16213e;">"They may kill me, but they cannot kill my ideas. They can crush my body, but they will not be able to crush my spirit."</p>
+       <footer class="text-xl font-semibold" style="color: #ff6b35;">
+        — Bhagat Singh
+       </footer>
+      </blockquote>
+     </div>
+    </div>
+   </section><!-- Closing Tribute -->
+   <section class="py-12 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+     <div class="bg-white bg-opacity-10 rounded-2xl p-10 backdrop-blur-sm">
+      <h3 class="text-3xl font-bold mb-6" style="color: #ff6b35;">Why We Admire Him</h3>
+      <p class="text-xl leading-relaxed mb-6" style="color: #f0e6d2;">Bhagat Singh represents the perfect blend of thought and action. He didn't just fight for freedom; he fought for a vision of India that was progressive, secular, and just. His courage wasn't reckless—it was calculated, purposeful, and deeply principled. At an age when most are finding their path, he had already charted the course for a nation's liberation.</p>
+      <p class="text-xl leading-relaxed" style="color: #f0e6d2;">His legacy reminds us that true patriotism lies not in blind nationalism, but in working towards a society where every citizen enjoys dignity, equality, and freedom. Bhagat Singh's ideas remain as relevant today as they were nearly a century ago.</p>
+     </div>
+    </div>
+   </section><!-- Footer -->
+   <footer class="py-8 px-6 text-center" style="background: rgba(0,0,0,0.3);">
+    <p id="footer-text" class="text-lg" style="color: #f0e6d2;">In eternal memory of Shaheed Bhagat Singh and his unwavering sacrifice for India's freedom.</p>
+    <p class="mt-4 text-sm" style="color: #f0e6d2; opacity: 0.8;">His spirit lives on in every heart that beats for justice and liberty.</p>
+   </footer>
+  </div>
+  <script>
+        const defaultConfig = {
+            page_title: "Bhagat Singh",
+            hero_quote: "Shaheed-e-Azam - The Great Martyr",
+            about_heading: "A Revolutionary Spirit",
+            legacy_heading: "His Enduring Legacy",
+            featured_quote: "They may kill me, but they cannot kill my ideas. They can crush my body, but they will not be able to crush my spirit.",
+            footer_text: "In eternal memory of Shaheed Bhagat Singh and his unwavering sacrifice for India's freedom.",
+            background_color: "#1a1a2e",
+            accent_color: "#ff6b35",
+            text_color: "#f0e6d2",
+            card_background: "#ffffff",
+            card_text: "#333333",
+            font_family: "Georgia"
+        };
+
+        async function onConfigChange(config) {
+            const customFont = config.font_family || defaultConfig.font_family;
+            const baseFontStack = 'Georgia, serif';
+            const fontSize = config.font_size || 16;
+
+            document.body.style.fontFamily = `${customFont}, ${baseFontStack}`;
+
+            document.getElementById('page-title').textContent = config.page_title || defaultConfig.page_title;
+            document.getElementById('page-title').style.fontSize = `${fontSize * 3.75}px`;
+            document.getElementById('page-title').style.color = config.accent_color || defaultConfig.accent_color;
+
+            document.getElementById('hero-quote').textContent = config.hero_quote || defaultConfig.hero_quote;
+            document.getElementById('hero-quote').style.fontSize = `${fontSize * 1.5}px`;
+            document.getElementById('hero-quote').style.color = config.text_color || defaultConfig.text_color;
+
+            document.getElementById('about-heading').textContent = config.about_heading || defaultConfig.about_heading;
+            document.getElementById('about-heading').style.fontSize = `${fontSize * 2.5}px`;
+            document.getElementById('about-heading').style.color = config.background_color || defaultConfig.background_color;
+
+            document.getElementById('legacy-heading').textContent = config.legacy_heading || defaultConfig.legacy_heading;
+            document.getElementById('legacy-heading').style.fontSize = `${fontSize * 2.5}px`;
+            document.getElementById('legacy-heading').style.color = config.accent_color || defaultConfig.accent_color;
+
+            document.getElementById('featured-quote').textContent = config.featured_quote || defaultConfig.featured_quote;
+            document.getElementById('featured-quote').style.fontSize = `${fontSize * 1.875}px`;
+            document.getElementById('featured-quote').style.color = config.background_color || defaultConfig.background_color;
+
+            document.getElementById('footer-text').textContent = config.footer_text || defaultConfig.footer_text;
+            document.getElementById('footer-text').style.fontSize = `${fontSize * 1.125}px`;
+            document.getElementById('footer-text').style.color = config.text_color || defaultConfig.text_color;
+
+            const appDiv = document.getElementById('app');
+            appDiv.style.background = `linear-gradient(135deg, ${config.background_color || defaultConfig.background_color} 0%, #16213e 100%)`;
+
+            const cardBackgrounds = document.querySelectorAll('section .bg-white');
+            cardBackgrounds.forEach(card => {
+                card.style.backgroundColor = config.card_background || defaultConfig.card_background;
+            });
+
+            const cardTexts = document.querySelectorAll('section .text-gray-700');
+            cardTexts.forEach(text => {
+                text.style.color = config.card_text || defaultConfig.card_text;
+            });
+        }
+
+        function mapToCapabilities(config) {
+            return {
+                recolorables: [
+                    {
+                        get: () => config.background_color || defaultConfig.background_color,
+                        set: (value) => {
+                            config.background_color = value;
+                            window.elementSdk.setConfig({ background_color: value });
+                        }
+                    },
+                    {
+                        get: () => config.accent_color || defaultConfig.accent_color,
+                        set: (value) => {
+                            config.accent_color = value;
+                            window.elementSdk.setConfig({ accent_color: value });
+                        }
+                    },
+                    {
+                        get: () => config.text_color || defaultConfig.text_color,
+                        set: (value) => {
+                            config.text_color = value;
+                            window.elementSdk.setConfig({ text_color: value });
+                        }
+                    },
+                    {
+                        get: () => config.card_background || defaultConfig.card_background,
+                        set: (value) => {
+                            config.card_background = value;
+                            window.elementSdk.setConfig({ card_background: value });
+                        }
+                    },
+                    {
+                        get: () => config.card_text || defaultConfig.card_text,
+                        set: (value) => {
+                            config.card_text = value;
+                            window.elementSdk.setConfig({ card_text: value });
+                        }
+                    }
+                ],
+                borderables: [],
+                fontEditable: {
+                    get: () => config.font_family || defaultConfig.font_family,
+                    set: (value) => {
+                        config.font_family = value;
+                        window.elementSdk.setConfig({ font_family: value });
+                    }
+                },
+                fontSizeable: {
+                    get: () => config.font_size || 16,
+                    set: (value) => {
+                        config.font_size = value;
+                        window.elementSdk.setConfig({ font_size: value });
+                    }
+                }
+            };
+        }
+
+        function mapToEditPanelValues(config) {
+            return new Map([
+                ["page_title", config.page_title || defaultConfig.page_title],
+                ["hero_quote", config.hero_quote || defaultConfig.hero_quote],
+                ["about_heading", config.about_heading || defaultConfig.about_heading],
+                ["legacy_heading", config.legacy_heading || defaultConfig.legacy_heading],
+                ["featured_quote", config.featured_quote || defaultConfig.featured_quote],
+                ["footer_text", config.footer_text || defaultConfig.footer_text]
+            ]);
+        }
+
+        if (window.elementSdk) {
+            window.elementSdk.init({
+                defaultConfig,
+                onConfigChange,
+                mapToCapabilities,
+                mapToEditPanelValues
+            });
+        }
+    </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ac46c5aa52047d5',t:'MTc2NTQ1MDI0OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
