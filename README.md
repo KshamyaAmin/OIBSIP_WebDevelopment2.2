@@ -4,14 +4,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)  
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  ![License](https://img.shields.io/badge/License-MIT-blue)  
 
-<p align="center">  
-  <img src="./assets/tribute-logo.svg" width="90" />  
-</p>  
-
-<p align="center">  
-  <img src="./assets/tribute-banner.svg" width="100%" />  
-</p>  
-
 # 🌟 Tribute Page | OIBSIP Web Development Task-2  
 
 A beautifully designed **tribute page** built using **HTML**, **CSS**, and **JavaScript** as part of the **Oasis Infobyte Web Development Internship**.  
