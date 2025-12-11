@@ -31,11 +31,6 @@ This project demonstrates **semantic HTML structure**, **responsive design techn
 
 ---
 
-## 📸 Screenshots  
-screenshots here....  
-
----
-
 ## 🛠 Tech Stack  
 | Technology | Purpose |  
 |-----------|----------|  
